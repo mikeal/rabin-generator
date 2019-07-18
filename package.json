@@ -11,7 +11,7 @@
     "tsame": "^2.0.1"
   },
   "scripts": {
-    "test": "nyc aegir test -t node browser",
+    "test": "nyc aegir test -t node",
     "pretest": "aegir lint"
   },
   "keywords": [],
