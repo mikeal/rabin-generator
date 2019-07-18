@@ -1,0 +1,21 @@
+{
+  "name": "rabin-generator",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bytesish": "~0.3.1",
+    "rabin-wasm": "~0.0.5"
+  },
+  "devDependencies": {
+    "aegir": "^19.0.5",
+    "tsame": "^2.0.1"
+  },
+  "scripts": {
+    "test": "nyc aegir test -t node",
+    "pretest": "aegir lint"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
+  "license": "(Apache-2.0 AND MIT)"
+}
