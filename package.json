@@ -1,7 +1,6 @@
 {
   "name": "rabin-generator",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.0-dev",
   "main": "index.js",
   "dependencies": {
     "bytesish": "~0.3.1",
@@ -12,10 +11,19 @@
     "tsame": "^2.0.1"
   },
   "scripts": {
-    "test": "nyc aegir test -t node",
+    "test": "nyc aegir test -t node browser",
     "pretest": "aegir lint"
   },
   "keywords": [],
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
-  "license": "(Apache-2.0 AND MIT)"
+  "license": "(Apache-2.0 AND MIT)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeal/rabin-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeal/rabin-generator/issues"
+  },
+  "homepage": "https://github.com/mikeal/rabin-generator#readme",
+  "description": "Async generator for rabin chunking."
 }
